@@ -114,18 +114,3 @@ bookForm.addEventListener("submit", (e) => {
 // Optional: Add dummy books for testing display
 addBookToLibrary("The Hobbit", "J.R.R. Tolkien", 310, true);
 addBookToLibrary("Atomic Habits", "James Clear", 280, false);
-})
-        }
-}
-        }
-}
-                })
-        })
-            })
-      })
-}
-          })
-}
-}
-}
-}
