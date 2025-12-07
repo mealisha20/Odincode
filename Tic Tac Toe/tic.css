@@ -1,0 +1,41 @@
+body {
+    font-family: Garamond;
+    text-align: center;
+    background: radial-gradient(circle, #94BBE9,#ccecd8 ,#EEAECA,#918894);
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+.board {
+    width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px); 
+    margin: 20px auto;
+    gap: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background: rgba(197, 189, 189, 0.457);
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.setup {
+    margin: 20px;
+}
+
+#message {
+    font-size: 1.4rem;
+    margin-top: 15px;
+    height: 30px;
+    font-weight: bold;
+}
